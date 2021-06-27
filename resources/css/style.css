@@ -4,13 +4,92 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Titillium Web', sans-serif; 
+    
+    
 }
+.header {
+    /* background-color: #87509c; */
+    height: 85vh;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../img/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+h1{
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 43px;
+    color: #ffffff;
+  }
 .row {
     max-width: 1140px;
     margin: 0 auto;
 }
-header {
-    background-color: #800080;
+.logo {
+    height: 35px;
+    width: auto;
+    margin-top: 35px;
+    float: left;
+}
+.main-nav {
+    float: right;
+}
+.main-nav li {
+    display: inline-block;
+    margin-top: 40px;
+}
+.main-nav li a:link,
+.main-nav li a:visited {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 15px;
+    background-color:rgba(97, 207, 24, 0);
+    padding: 3px 16px;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 16px;
+    transition: 3s;
+}
+.main-nav li:first-child {
+    margin-left: 0;
+}
+.main-nav li:hover a:link,
+.main-nav li:hover a:visited{
+    background: rgba(209, 157, 0, 1)
+
+}
+.main-nav li.active a:link,
+.main-nav li.active a:visited{
+    border-radius: 3px;
+}
+.main-nav li.active a {
+    background: rgba(97, 207, 24, 0);
+}
+.hero-text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.btn:link,
+.btn:visited,
+.btn {
+    background-color: #333333;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px 50px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-top: 45px;
+}
+.btn-hero:link,
+.btn-hero:visited {
+    background:#A52A2A ;
+    background-color: #FFA500;
 }
