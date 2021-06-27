@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html{
+    font-size: 75%;
+}
 body {
     font-family: 'Titillium Web', sans-serif; 
     
@@ -20,17 +22,18 @@ body {
 h1{
     text-align: justify;
     text-justify: inter-word;
-    font-size: 43px;
+    font-size: 3.3rem;
     color: #ffffff;
   }
 .row {
-    max-width: 1140px;
+    max-width: 114rem;
     margin: 0 auto;
 }
 .logo {
-    height: 35px;
+    height: 2.5rem;
     width: auto;
-    margin-top: 35px;
+    margin-top: 2.3rem;
+    margin-left: 2.3rem;
     float: left;
 }
 .main-nav {
@@ -38,19 +41,19 @@ h1{
 }
 .main-nav li {
     display: inline-block;
-    margin-top: 40px;
+    margin-top: 3rem;
 }
 .main-nav li a:link,
 .main-nav li a:visited {
     color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
-    margin-left: 15px;
+    margin-left: 1.5rem;
     background-color:rgba(97, 207, 24, 0);
-    padding: 3px 16px;
-    border-radius: 3px;
+    padding: .3rem 1.6rem;
+    border-radius: 0.3rem;
     display: inline-block;
-    font-size: 16px;
+    font-size: 1.0rem;
     transition: 3s;
 }
 .main-nav li:first-child {
@@ -63,7 +66,7 @@ h1{
 }
 .main-nav li.active a:link,
 .main-nav li.active a:visited{
-    border-radius: 3px;
+    border-radius: 0.3rem;
 }
 .main-nav li.active a {
     background: rgba(97, 207, 24, 0);
@@ -83,10 +86,10 @@ h1{
     color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 15px 50px;
-    border-radius: 3px;
+    padding: 1.0rem 3.0rem;
+    border-radius: 0.3rem;
     display: inline-block;
-    margin-top: 45px;
+    margin-top: 4.5rem;
 }
 .btn-hero:link,
 .btn-hero:visited {
