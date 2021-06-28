@@ -96,3 +96,44 @@ h1{
     background:#A52A2A ;
     background-color: #FFA500;
 }
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}  
+
+  .services-icon {
+    height: 5rem;
+     width: 5.5rem;
+    
+     /* margin-top: 3.3rem; */
+     margin-left: 25%; 
+      margin-bottom: 10%;  
+      
+    
+    
+}
+.row1 {
+  text-align: center;
+  padding: 3rem;
+  /* font-size: 3rem; */
+}
+.h2{
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.little-description{
+  font-size: 2rem;
+}
+.row2{
+  padding: 3rem;
+  font-size: 1rem;
+  
+  
+}
+.services-section {
+  background-color: rgb(247, 247, 247);
+}
