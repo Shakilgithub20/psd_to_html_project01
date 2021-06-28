@@ -124,6 +124,7 @@ h1{
 .h2{
   font-size: 2rem;
   text-transform: uppercase;
+  font-weight: 700;
 }
 .little-description{
   font-size: 2rem;
