@@ -18,7 +18,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    background-attachment: fixed;
+   
 }
+
 h1{
     text-align: justify;
     text-justify: inter-word;
@@ -136,5 +139,24 @@ h1{
   
 }
 .services-section {
-  background-color: rgb(247, 247, 247);
+  
+  background: linear-gradient(rgba(252, 252, 252, 0.9),rgba(252, 252, 252, 0.9)), url(../img/service.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+}
+.box {
+  padding: 1%;
+}
+.box p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: 2rem;
+}
+.box h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  
 }
