@@ -110,14 +110,11 @@ h1{
 
   .services-icon {
     height: 5rem;
-     width: 5.5rem;
-    
-     /* margin-top: 3.3rem; */
-     margin-left: 25%; 
-      margin-bottom: 10%;  
-      
-    
-    
+    width: 5.5rem;
+    margin-left: 25%; 
+    margin-bottom: 10%;  
+    display: inline-block;
+    margin-top: 3rem;
 }
 .row1 {
   text-align: center;
@@ -133,10 +130,11 @@ h1{
   font-size: 2rem;
 }
 .row2{
-  padding: 3rem;
   font-size: 1rem;
-  
-  
+  padding-top: 1rem;
+  padding-right: 5rem;
+  padding-bottom: 5rem;
+  padding-left: 5rem;
 }
 .services-section {
   
@@ -159,4 +157,55 @@ h1{
   font-weight: 700;
   margin-top: 2rem;
   
+}
+.team-mates {
+  height: 5rem;
+  width: 5.5rem;
+  margin-left: 25%; 
+  margin-bottom: 10%;  
+  display: inline-block;
+  margin-top: 3rem;
+}
+
+.social-link {
+  float: right;
+}
+.social-link  li {
+  display: inline-block;
+  margin-top: 3rem;
+}
+.social-link   li a:link,
+.social-link  li a:visited {
+  text-decoration: none;
+  margin-left: 1.1rem;
+  border-radius: 0.3rem;
+  display: inline-block;
+  font-size: 1.0rem;
+}
+
+.social-link li:first-child {
+  margin-left: 0;
+}
+.teammates{
+  padding-top: 1rem;
+  padding-right: 9rem;
+  padding-bottom: 5rem;
+  padding-left: 9rem;
+}
+.team-section {
+  background-color: #0C090A;
+  color: antiquewhite;
+
+}
+hr.new5 {
+  border: 0.5rem solid rgb(220, 223, 220);
+  border-radius: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+.role {
+  color: #FFA500;
+  padding-top: 10rem;
 }
