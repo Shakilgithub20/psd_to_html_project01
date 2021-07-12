@@ -1,0 +1,16 @@
+----- 3rd party ----
+grid
+normalize
+animated circle
+html5shiv.js
+respond.min.js
+jquery weypoint [Waypoints is the easiest way to trigger a function when you scroll to an element]
+-----
+-----
+formspree.io [live server]
+
+----
+----
+--shortcut--
+ ul>li*7>a[href="#"]{facebook}
+ ---

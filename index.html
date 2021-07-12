@@ -8,170 +8,326 @@
     <link rel="stylesheet" href="resources/css/style.css">
     <link rel="stylesheet" href="vendor/css/grid.css"> <!--3rd party files-->
     <link rel="stylesheet" href="vendor/css/normalize.css"> <!--3rd party files-->
+    <link rel="stylesheet" href="vendor/css/animated_circle.css">
     <link rel="stylesheet" href="resources/css/responsive.css"> <!--3rd party files-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/7c26a2c9dd.js" crossorigin="anonymous"></script>
+    
 </head>
 <body>
 
-     <header class="header" >
-        <nav>
+<header class="header" id="home" >
+<nav>
+    <div class="row">
+        <a href="#home">
+            <img src="resources/img/logo4.jpg" alt="" class="logo">
+        </a>
+        <ul class="main-nav">
+            <li class="active"><a href="#home">home</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#testimonial">Testimonial</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+<div class="row">
+    <div class="hero-text-box">
+        <h1>Design is not just what it looks like and feels like.
+            Design is how it works!
+        </h1><br>
+                <a href="#" class="btn btn-hero">work with us</a>
+                
+    </div>
+</div>
+</header>
+<section class="services-section clearfix js--services-section" id="service">
+    <div class="row1">
+        <h2 class="h2">Services We Provide</h2><br>
+        <p class="little-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+    when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+    </div>
+    <div class="row2">
+    <div >
+        <div class="col span_1_of_4 box">
+            <img src="resources/img/flag.png" alt="flag" class="services-icon">
+            <h3>Branding</h3><br>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+            <div >
+        </div>
+    </div>
+    <div >
+        <div class="col span_1_of_4 box">
+            <img src="resources/img/pencil.jpg" alt="pencil" class="services-icon">
+            <h3>Design</h3><br>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+            <div >
+        </div>
+    </div>
+    <div >
+        <div class="col span_1_of_4 box">
+            <img src="resources/img/gears.png" alt="gears" class="services-icon">
+            <h3>Development</h3><br>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+            <div >
+        </div>
+    </div>
+    <div >
+        <div class="col span_1_of_4 box">
+            <img src="resources/img/rocket.png" alt="rocket" class="services-icon">
+            <h3>Rocket Science</h3><br>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+            <div >
+        </div>
+    </div>
+    </div> 
+</section> 
+<section class="team-section clearfix" id="team">
+<div class="row1">
+    <h2 class="h2">Meet Our beautiful Team</h2><br><br>
+    <p class="little-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+</div>
+<hr class="new5">
+<div class="row2 teammates">
+    <div >
+        <div class="col span_1_of_4 box">
+            <img src="resources/img/t-1.jpg" alt="t-1" class="team-mates">
+            <h3>Harry Peterson</h3><br>
+            <span class="role"> CEO/ Metketing DP.</span>
+            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <div class="social-link">
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="far fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+        </div>
+    </div>
+        <div class="col span_1_of_4 box">
+            <img src="resources/img/t-2.png" alt="t-2" class="team-mates">
+            <h3>Abraham Johnson</h3><br>
+            <span class="role">Software Engineer</span>
+            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <div class="social-link">
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="far fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+        </div>
+        <div class="col span_1_of_4 box">
+            <img src="resources/img/t-3.png" alt="t-3" class="team-mates">
+            <h3>Marry Rose</h3><br>
+            <span class="role">Software Developer</span>
+            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <div class="social-link">
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="far fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+        </div>
+        <div class="col span_1_of_4 box">
+            <img src="resources/img/t-5.png" alt="t-5" class="team-mates">
+            <h3>Peter Pot</h3><br>
+            <span class="role">Software Engineer</span>
+            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <div class="social-link">
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="far fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+        </div>
+</div>
+</section>
+<section class="skills-section box clearfix" id="skills">
+<div class="row1">
+    <h2 class="h2">We Got Skills</h2><br>
+    <p class="little-description">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+        "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain...".</p>
+</div>
+<div >
+    <div class="col span_1_of_4 ">
+        <svg class="radial-progress web-Design" data-percentage="92" viewBox="0 0 80 80">
+            <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+            <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+            <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">92%</text>
+        </svg>
+        <h3>Web Design</h3>
+    </div>
+    <div class="col span_1_of_4 ">
+        <svg class="radial-progress html-css" data-percentage="86" viewBox="0 0 80 80">
+            <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+            <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+            <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">86%</text>
+        </svg>
+        <h3>Html / Css </h3>
+    </div>
+    <div class="col span_1_of_4 ">
+        <svg class="radial-progress Graphic-Design" data-percentage="60" viewBox="0 0 80 80">
+            <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+            <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+            <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">60%</text>
+        </svg>
+        <h3>Graphic Design</h3>
+    </div>
+    <div class="col span_1_of_4 ">
+        <svg class="radial-progress ui-ux" data-percentage="80" viewBox="0 0 80 80">
+            <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+            <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+            <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">80%</text>
+        </svg>
+        <h3>Ui / Ux</h3>
+    </div>
+</div>
+</section>
+<section class=" Portfolio clearfix" id="portfolio">
+<div class="row1">
+<h2 class="h2">Our Portfolio</h2><br>
+<p class="little-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+</div>
+<div class="row1">
+<div class="Portfolio-filter">
+    <button type="button" data-filter="all">All</button>
+    <button type="button" data-filter=".web">web</button>
+    <button type="button" data-filter=".apps">apps</button>
+    <button type="button" data-filter=".icons">icons</button>
+</div>
+<div class="row container">
+    <div class="col span_1_of_2 mix apps box">
+        <img src="resources/img/1.jpg" alt="" class="p-1"><br><br>
+        <h4>Lorem Ipsum is simply dummy</h4>
+    </div>
+    <div class="col span_1_of_2 mix apps web box">
+        <img src="resources/img/5.jpg" alt="" class="p-1"><br><br>
+        <h4>Lorem Ipsum is simply dummy</h4>
+    </div>
+    <div class="col span_1_of_2 mix icons box">
+        <img src="resources/img/3.jpg" alt="" class="p-1"><br><br>
+        <h4>Lorem Ipsum is simply dummy</h4>
+    </div>
+    <div class="col span_1_of_2 mix icons web apps box">
+        <img src="resources/img/4.jpg" alt="" class="p-1"><br><br>
+        <h4>Lorem Ipsum is simply dummy</h4>
+    </div>
+</div>
+</div>
+</section >
+<section class="testimonial clearfix" id="testimonial">
+    <div class="row1">
+        <h2 class="h2">What People say about us!</h2><br>
+        <p class="little-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    </div>
+    <div class="data test">
+        <div >
+            <div class="col span_1_of_2  box">
+                <img src="resources/img/t-1.jpg" alt="t-1" class="client-img">
+                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <h3>Karim Ahmed</h3><br>
+                <span class="role"> CEO/ Metketing DP.</span>
+            </div>
+        </div>
+        <div >
+            <div class="col span_1_of_2  box">
+                <img src="resources/img/t-1.jpg" alt="t-1" class="client-img">
+                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <h3>Mobin Israzz</h3><br>
+                <span class="role"> Head/ Metketing DP.</span>
+            </div>
+        </div>
+        <div >
+            <div class="col span_1_of_2  box">
+                <img src="resources/img/t-1.jpg" alt="t-1" class="client-img">
+                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <h3>Bakkar Siddiq</h3><br>
+                <span class="role">  Metketing DP.</span>
+            </div>
+        </div>
+        <div >
+            <div class="col span_1_of_2  box">
+                <img src="resources/img/t-1.jpg" alt="t-1" class="client-img">
+                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <h3>Nur Ahmed</h3><br>
+                <span class="role"> Head Of DP.</span>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="contact clearfix" id="contact">
+    <div class="row1">
+        <h2 class="h2">Contact</h2><br><br>
+        <p class="little-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    </div>
+    <div class="row1">
+        <form action="https://formspree.io/f/xgerlooa" method="post">
+            <div class="row1">
+                <div class="col span_1_of_2">
+                    <input type="text" name="name" placeholder="Your name" required>
+                </div>
+                <div class="col span_1_of_2">
+                    <input type="email" name="email" placeholder="Your email" required>
+                </div>
+            </div>
+            <div class="row1">
+                <textarea name="msg" id="" cols="30" rows="5" placeholder="Your message"></textarea>
+            </div>
             <div class="row">
-                <a href="#">
-                    <img src="resources/img/logo4.jpg" alt="" class="logo">
-                </a>
-                <ul class="main-nav">
-                    <li class="active"><a href="#">home</a></li>
-                    <li><a href="#service">Service</a></li>
-                    <li><a href="#">Team</a></li>
-                    <li><a href="#">blog</a></li>
-                    <li><a href="#">contact</a></li>
-                </ul>
+                <input type="submit" value="send msg" class="btn btn-submit">
             </div>
-        </nav>
-        <div class="row">
-            <div class="hero-text-box">
-                <h1>Design is not just what it looks like and feels like.
-                    Design is how it works!
-                </h1><br>
-                      <a href="#" class="btn btn-hero">work with us</a>
-                      
-            </div>
-        </div>
-     </header>
+        </form>
+    </div>
+</section>
+<footer class="footer">
+    <div class="row1">
+        <ul>
+            <li><a href="#">facebook</a></li>
+            <li><a href="#">Google +</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">linkedin</a></li>
+            <li><a href="#">Github</a></li>
+            <li><a href="#">dribble</a></li>
+            <li><a href="#">Pen code</a></li>
+        </ul>
 
-    <section class="services-section clearfix" id="service">
-         <div class="row1">
-             <h2 class="h2">Services We Provide</h2><br>
-             <p class="little-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-            when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-         </div>
-           <div class="row2">
-            <div >
-                <div class="col span_1_of_4 box">
-                   <img src="resources/img/flag.png" alt="flag" class="services-icon">
-                   <h3>Branding</h3><br>
-                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                       when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-                   <div >
-                </div>
-            </div>
-            <div >
-               <div class="col span_1_of_4 box">
-                  <img src="resources/img/pencil.jpg" alt="pencil" class="services-icon">
-                  <h3>Design</h3><br>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                      when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-                  <div >
-               </div>
-           </div>
-           <div >
-               <div class="col span_1_of_4 box">
-                  <img src="resources/img/gears.png" alt="gears" class="services-icon">
-                  <h3>Development</h3><br>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                      when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-                  <div >
-               </div>
-           </div>
-           <div >
-               <div class="col span_1_of_4 box">
-                  <img src="resources/img/rocket.png" alt="rocket" class="services-icon">
-                  <h3>Rocket Science</h3><br>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                      when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-                  <div >
-               </div>
-           </div>
-           </div> 
-     </section> 
-
-     <section class="team-section clearfix">
-        <div class="row1">
-            <h2 class="little-description">Meet Our beautiful Team</h2><br>
-            <p class="little-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        </div>
-        <hr class="new5">
-        <div class="row2 teammates">
-            <div >
-                <div class="col span_1_of_4 box">
-                    <img src="resources/img/t-1.jpg" alt="t-1" class="team-mates">
-                    <h3>Harry Peterson</h3><br>
-                    <span class="role"> CEO/ Metketing DP.</span>
-                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                         when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                         <div class="social-link">
-                             <ul>
-                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                 <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                                 <li><a href="#"><i class="far fa-envelope"></i></a></li>
-                             </ul>
-                         </div>
-                </div>
-            </div>
-
-            
-                <div class="col span_1_of_4 box">
-                    <img src="resources/img/t-2.png" alt="t-2" class="team-mates">
-                    <h3>Abraham Johnson</h3><br>
-                    <span class="role">Software Engineer</span>
-                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                         when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                         <div class="social-link">
-                             <ul>
-                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                 <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                                 <li><a href="#"><i class="far fa-envelope"></i></a></li>
-                             </ul>
-                         </div>
-                </div>
-            
-
-            
-                <div class="col span_1_of_4 box">
-                    <img src="resources/img/t-3.png" alt="t-3" class="team-mates">
-                    <h3>Marry Rose</h3><br>
-                    <span class="role">Software Developer</span>
-                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                         when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                         <div class="social-link">
-                             <ul>
-                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                 <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                                 <li><a href="#"><i class="far fa-envelope"></i></a></li>
-                             </ul>
-                         </div>
-                </div>
-            
-
-           
-                <div class="col span_1_of_4 box">
-                    <img src="resources/img/t-5.png" alt="t-5" class="team-mates">
-                    <h3>Peter Pot</h3><br>
-                    <span class="role">Software Engineer</span>
-                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                         <div class="social-link">
-                             <ul>
-                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                 <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                                 <li><a href="#"><i class="far fa-envelope"></i></a></li>
-                             </ul>
-                         </div>
-                </div>
-            
-        </div>
-     </section>
-
+    </div>
+</footer >
 
     <!--js script-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" 
+    integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" 
+    crossorigin="anonymous">
+    </script>
     <script src="vendor/js/html5shiv.js"></script>
     <script src="vendor/js/respond.min.js"></script>
     <script src="vendor/js/test.js"></script>
+    <script src="vendor/js/animated_circle.js"></script>
+    <script src="vendor/js/mixitup.min.js"></script>
+    <script src="vendor/js/jquery.waypoints.min.js"></script>
+    <script src="vendor/js/main.js"></script>
 </body>
 </html>
