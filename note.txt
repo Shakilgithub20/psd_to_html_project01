@@ -8,6 +8,7 @@ jquery weypoint [Waypoints is the easiest way to trigger a function when you scr
 -----
 -----
 formspree.io [live server]
+tinyJPG
 
 ----
 ----
